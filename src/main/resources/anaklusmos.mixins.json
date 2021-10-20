@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.voidxwalker.anaklusmos.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TridentItemMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

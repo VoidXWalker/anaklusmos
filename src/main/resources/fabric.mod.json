@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "anaklusmos",
+  "version": "1.0.1",
+  "name": "Anaklusmos",
+  "description": "Every player gets an unbreakable elytra and a riptide trident when spawning. The Trident even works when the player is not touching water",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/Anaklusmos"
+  },
+  "contributors": [
+    "DuncanRuns",
+    "JoJoe"
+  ],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.voidxwalker.anaklusmos.Main"
+    ]
+  },
+  "mixins": [
+    "anaklusmos.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}
